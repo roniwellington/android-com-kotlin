@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import br.com.alura.orgs.databinding.FormularioImagemBinding
-import br.com.alura.orgs.extension.tentaCarregarImagem
+import br.com.alura.orgs.extensions.tentaCarregarImagem
 
 class FormularioImagemDialog(private val context: Context) {
 

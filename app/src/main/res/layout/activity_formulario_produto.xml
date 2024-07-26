@@ -37,6 +37,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Nome"
                 android:inputType="text" />
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -53,8 +54,9 @@
                 android:id="@+id/activity_formulario_produto_descricao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="descricao"
+                android:hint="Descrição"
                 android:inputType="text" />
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -73,8 +75,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Valor"
                 android:inputType="numberDecimal" />
-        </com.google.android.material.textfield.TextInputLayout>
 
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/activity_formulario_produto_botao_salvar"
